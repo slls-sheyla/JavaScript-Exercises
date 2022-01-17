@@ -1,3 +1,5 @@
+const { type } = require("os")
+
 function Carro(velocidadeMaxima = 200, delta = 5) {
     // atributo privado
     let velocidadeAtual = 0
@@ -26,3 +28,6 @@ ferrari.acelerar()
 ferrari.acelerar()
 ferrari.acelerar()
 console.log(ferrari.getVelocidadeAtual())
+
+console.log(typeof Carro)
+console.log(typeof ferrari)
